@@ -4,8 +4,9 @@
 
 int main(void)
 {
-	char *c;
-	c = HEXALOWER;
-	printf("%c\n", c[1]);
+	int c;
+	c = 1565;
+	printf("%x\n", c);
+	ft_printf("%x\n", c);
 	return (0);
 }

@@ -1,6 +1,6 @@
-Ceci est pour 42.\n
-Un printf made in 42.\n
-\n
-submodule ===> libft\n
-\tpath = libft\n
-\turl = git@github.com:clem-corp/libft2.git\n
+Ceci est pour 42.
+Un printf made in 42.
+
+submodule ===> libft
+\tpath = libft
+\turl = git@github.com:clem-corp/libft2.git

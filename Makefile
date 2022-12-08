@@ -6,12 +6,12 @@
 #    By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/30 19:06:52 by clacaill          #+#    #+#              #
-#    Updated: 2022/12/07 18:41:13 by clacaill         ###   ########.fr        #
+#    Updated: 2022/12/08 07:28:24 by clacaill         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME    = libftprintf.a
-SRC		= ft_printf.c
+SRC		= utils/printhex.c utils/printnbr.c utils/printhex.c ft_printf.c
 
 OBJS		= ${SRC:.c=.o}
 CC			= gcc

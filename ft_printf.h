@@ -6,7 +6,7 @@
 /*   By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/07 18:46:50 by clacaill          #+#    #+#             */
-/*   Updated: 2022/12/08 01:08:41 by clacaill         ###   ########.fr       */
+/*   Updated: 2022/12/08 05:17:35 by clacaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,15 @@
 # define HEXAUPPER	"0123456789ABCDEF"
 
 // Function
+
 int		ft_printf(const char *format, ...);
 int		choose_print(const char *format, va_list argp, int *len);
+void	ft_char_prnt(va_list argp, int *len);
+void	ft_str_prnt(va_list argp, int *len);
+void	ft_hex_prnt(va_list argp, int *len);
+void	ft_hexa_prnt(va_list argp, int *len, char c);
+void	ft_puthex(unsigned long n, char *base, int *len);
+void	ft_nbr_prnt(va_list argp, int *len);
+void	ft_unsigned_prnt(va_list argp, int *len);
 
 #endif
